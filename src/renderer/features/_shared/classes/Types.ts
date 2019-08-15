@@ -37,6 +37,7 @@ interface Status {
 }
 
 interface AppState {
+  Settings: object
   UserDataPath: string
   // ActiveMech: Mech
   ActivePilot: Pilot
